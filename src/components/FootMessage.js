@@ -1,18 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 // import PropTypes from 'prop-types'
 
-export class FootMessage extends Component {
-    // static propTypes = {
-
-    // }
-
-    render() {
+const FootMessage = (props)=>{
+    
         return (
             <div className="Contianer text-center my-5">
-                <h3 style={{color:"white"}}>{`You are all caught up for ${this.props.category} news. Checkout other topic!`}</h3>
+                <h3 style={{color:"white"}}>{`You are all caught up for ${props.category} news. Browse other topics!`}</h3>
             </div>
         )
-    }
 }
+
+
 
 export default FootMessage
