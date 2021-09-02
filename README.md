@@ -4,4 +4,3 @@ NewsPanda is a react app that fetches latest news using the newsapi.org api. The
 
 Dont know if it can be hosted by github pages or not, since the api used only supports localhost for the free package.
 
-It is under development right now.
